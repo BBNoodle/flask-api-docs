@@ -1,2 +1,25 @@
-include flask_docs/static/*
-include flask_doce/templates/*
+include flask_docs/static/css/style.css
+
+include flask_docs/static/fonts/FontAwesome.otf
+include flask_docs/static/fonts/fontawesome-webfont.eot
+include flask_docs/static/fonts/fontawesome-webfont.svg
+include flask_docs/static/fonts/fontawesome-webfont.ttf
+include flask_docs/static/fonts/fontawesome-webfont.woff
+include flask_docs/static/fonts/fontawesome-webfont.woff2
+include flask_docs/static/fonts/glyphicons-halflings-regular.eot
+include flask_docs/static/fonts/glyphicons-halflings-regular.svg
+include flask_docs/static/fonts/glyphicons-halflings-regular.ttf
+include flask_docs/static/fonts/glyphicons-halflings-regular.woff
+include flask_docs/static/fonts/glyphicons-halflings-regular.woff2
+
+include flask_docs/static/images/favicon.png
+include flask_docs/static/images/info.png
+include flask_docs/static/images/loading.gif
+include flask_docs/static/images/top.png
+
+include flask_docs/static/js/bootstrap.min.js
+include flask_docs/static/js/jquery-3.1.1.min.js
+include flask_docs/static/js/main.js
+
+include flask_doce/templates/flask_docs/base.html
+include flask_doce/templates/flask_docs/home.html

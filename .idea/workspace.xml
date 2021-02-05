@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8dfc012-abde-4e47-a1c0-b7c6589ee794" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/flask_docs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xt-FlaskAPIDocs-0.0.2.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xt_FlaskAPIDocs-0.0.2-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xt_FlaskAPIDocs.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xt_FlaskAPIDocs.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xt_FlaskAPIDocs.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xt_FlaskAPIDocs.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xt_FlaskAPIDocs.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_docs/static/css/login.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MANIFEST.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -82,6 +74,40 @@
             <path>
               <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="main.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-api-docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-api-docs" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="flask_docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -171,12 +197,12 @@
       <updated>1612491349433</updated>
       <workItem from="1612491350647" duration="1071000" />
       <workItem from="1612493263511" duration="198000" />
-      <workItem from="1612494560924" duration="2127000" />
+      <workItem from="1612494560924" duration="2522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3396000" />
+    <option name="totallyTimeSpent" value="3791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1440" height="872" extended-state="0" />
@@ -268,10 +294,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flask_docs/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
