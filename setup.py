@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 # @Time : 2/5/21 10:10 AM 
 # @Author : mxt
-# @File : set_up.py
+# @File : setup.py
 
 import setuptools
 
