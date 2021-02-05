@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: xt-FlaskAPIDocs
+Version: 0.0.3
+Summary: Interface automation document based on flash.
+Home-page: https://github.com/mxtadmin/flask-api-docs
+Author: Maoxinteng
+Author-email: 1214403402@qq.com
+License: UNKNOWN
+Description: # flask-api-docs
+        Interface automation document based on flash
+        
+        
+        # Installation
+        
+        It is possible to install the tool with pip:
+        
+        ```
+        pip install xt-FlaskAPIDocs
+        ```
+        
+        # Usage
+        
+        Sample usage:
+        
+        ```python
+        from flask import Flask
+        
+        from flask_api_demo.test.HelloWorld import HelloWorld
+        from flask_docs import BluePrint, Docs
+        
+        app = Flask(__name__)
+        
+        a = BluePrint('hello', __name__)
+        
+        a.add_url_rule('/hello', 'hello', HelloWorld().hello_world, methods=['GET'], args={"test1": 'str', "test2": 'int'})
+        a.add_url_rule('/bye', 'bye', HelloWorld().bye_world, methods=['GET'], args={"test1": 'str', "test2": 'int'})
+        app.register_blueprint(a)
+        Docs(app, hide_docs=True)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
