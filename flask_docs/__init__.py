@@ -42,7 +42,7 @@ class Docs:
         self.default_headers = default_headers
         self.init_config()
 
-        if self.app.config["HIDE_DOCS"]:
+        if not self.app.config["HIDE_DOCS"]:
             self.add_docs_rule()
 
         self.init_docs_staticfiles()
