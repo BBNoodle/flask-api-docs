@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="xt-FlaskAPIDocs",
-    version="0.0.4",
+    version="0.1.0",
     author="Maoxinteng",
     author_email="1214403402@qq.com",
     description="Interface automation document based on flash.",
