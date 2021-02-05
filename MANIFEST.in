@@ -1,0 +1,2 @@
+include flask_docs/static/*
+include flask_doce/templates/*

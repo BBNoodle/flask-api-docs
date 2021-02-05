@@ -22,9 +22,6 @@ setuptools.setup(
         "flask_docs"
     ],
     include_package_data=True,
-    package_data={"flask_docs": [
-        "flask_docs/static/*", "flask_docs/templates/*"
-    ]},
     classifiers=[
         "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: MIT License",
