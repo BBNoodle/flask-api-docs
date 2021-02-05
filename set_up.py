@@ -17,7 +17,7 @@ setuptools.setup(
     description="Interface automation document based on flash.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mxtadmin/doap-date-utils",
+    url="https://github.com/mxtadmin/flask-api-docs",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.6",
