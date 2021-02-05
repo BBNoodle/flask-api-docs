@@ -11,11 +11,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="xt-FlaskAPIDocs",
-    version="0.0.2",
+    version="0.0.3",
     author="Maoxinteng",
     author_email="1214403402@qq.com",
     description="Interface automation document based on flash.",
-    long_description='Flask-Docs',
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mxtadmin/flask-api-docs",
     packages=[

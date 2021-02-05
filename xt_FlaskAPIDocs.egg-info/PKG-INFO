@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xt-FlaskAPIDocs
+Version: 0.0.2
+Summary: Interface automation document based on flash.
+Home-page: https://github.com/mxtadmin/flask-api-docs
+Author: Maoxinteng
+Author-email: 1214403402@qq.com
+License: UNKNOWN
+Description: Flask-Docs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
